@@ -1,0 +1,123 @@
+body{
+	background: #ffffff;
+}
+.gr-sider-bar{
+	position: absolute;
+	width: 250px;
+}
+.gr-container{
+	margin-left: 250px;
+	min-height: 200px;
+	border-left: 1px solid #e3e3e3;
+	padding: 10px 20px;
+}
+.div-layer{
+	display: block;
+	margin-top: 10px;
+	padding: 0px 5px;
+	text-align: center;
+}
+.gr-idx-btns{
+	padding-top: 1px;
+}
+.gr-idx-btns>div{
+	text-align: center;
+	margin-top: 20px;
+}
+.gr-box-lg{
+	display: inline-block;
+	text-align: center;
+	background: #337ab7;
+	border: 1px solid #3346b7;
+	height: 150px;
+	width: 150px;
+	-webkit-transition: background-color 0.2s;
+	-o-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+	border-radius: 5px;
+}
+.gr-box-lg:hover{
+	background: #1b63a0;
+}
+.gr-box-lg a{
+	line-height: 150px;
+	color: #fff;
+	-webkit-transition: color 0.2s;
+	-o-transition: color 0.2s;
+	transition: color 0.2s;
+}
+.gr-box-lg a:hover{
+	text-decoration: none;
+	color: #ebebeb;
+}
+.func-ul{
+	list-style: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.func-ul li{
+	text-align: center;
+	height: 40px;
+}
+.func-ul .active{
+	background: #fdfd8b;
+	color: #555;
+}
+.func-ul li a{
+	line-height: 40px;
+	font-size: 17px;
+	color: #003300;
+	position: relative;
+	top: 3px;
+}
+.func-ul li:hover{
+	color: #555;
+}
+.func-ul li a:hover{
+	text-decoration: none;
+	color: #003366;
+}
+.func-ul li a i{
+	color: #CC6633;
+}
+.func-ul li a i:hover{
+	color: #555;
+}
+#carousel-kn{
+	width: 600px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.carousel-indicators{
+	bottom: 0px;
+	margin-bottom: 0px;
+}
+.carousel-indicators li{
+	background: #33CCCC;
+}
+.carousel-indicators .active{
+	background: #CC6600;
+}
+.hc-avatar{
+	text-align: center;
+}
+.ann-operation{
+	text-align: center;
+}
+#send_success{
+	width: 160px;
+	height: 60px;
+	text-align: center;
+	position: absolute;
+	background: url('../imgs/icon.png') no-repeat 0% 50%;
+	left: 50%;
+	margin-left: -80px;
+	top: 20px;
+}
+#send_success>p{
+	line-height: 60px;
+}
+.badge-red{
+	background: #d9534f;
+}
+

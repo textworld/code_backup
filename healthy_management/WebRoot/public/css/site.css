@@ -1,0 +1,27 @@
+body{
+	background: url("../imgs/n1.png");
+}
+.panel-primary{
+	border-color: #e3e3e3;
+}
+.panel-primary .panel-heading{
+	color: #010101;
+	background-color: #d7e7fe;/* 这是panel heading的背景颜色 */
+	border-color: #e3e3e3;
+}
+.navbar-default{
+	background: #e7e8ed;
+	border-radius: 0px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	/*background-color: #d3f5f6;*/
+}
+#img_preview_box{
+	margin-bottom: 10px;
+}
+#img_preview_box .row>div{
+	text-align:center;
+}
+#img_preview_box .row>div>img{
+	margin-bottom: 5px;
+}

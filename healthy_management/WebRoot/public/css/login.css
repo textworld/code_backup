@@ -1,0 +1,120 @@
+.logo-big{
+	height: 160px;
+}
+.pd-t-10{
+	padding-top: 10px;
+}
+body{
+	font-family: 'Microsoft Yahei';
+}
+
+.login-bg{
+	padding-top: 1px;
+}
+#login-child{
+	background: url('../imgs/child.png') no-repeat;
+	background-size: 250px;
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	top: -80px;
+	left: 10%;
+}
+/*.nav-tabs-login li a{
+	border-radius: 0px;
+}
+.nav-tabs>li>a{
+	background-color: #F5F5F5;
+	color: #737373;
+	padding: 20px 25px;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	background-color: #f3f3f3;
+}
+
+.tab-content{
+	border: solid #e3e3e3 1px;
+	border-top: transparent;
+	background-color: #f3f3f3;
+}*/
+
+#login_box{
+	width: 100%;
+	height: 173px;
+	
+	margin-top: 200px;
+	position: relative;
+	background: #a1d0f4; /* Old browsers */
+	background: -moz-linear-gradient(top,  #a1d0f4 2%, #2e78f7 29%, #2e78f7 29%, #2e78f7 64%, #2e78f7 64%, #9ccaed 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#a1d0f4), color-stop(29%,#2e78f7), color-stop(29%,#2e78f7), color-stop(64%,#2e78f7), color-stop(64%,#2e78f7), color-stop(100%,#9ccaed)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #a1d0f4 2%,#2e78f7 29%,#2e78f7 29%,#2e78f7 64%,#2e78f7 64%,#9ccaed 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #a1d0f4 2%,#2e78f7 29%,#2e78f7 29%,#2e78f7 64%,#2e78f7 64%,#9ccaed 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #a1d0f4 2%,#2e78f7 29%,#2e78f7 29%,#2e78f7 64%,#2e78f7 64%,#9ccaed 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #a1d0f4 2%,#2e78f7 29%,#2e78f7 29%,#2e78f7 64%,#2e78f7 64%,#9ccaed 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1d0f4', endColorstr='#9ccaed',GradientType=0 ); /* IE6-9 */
+	background: url('../imgs/loginBoxBg.png');
+
+	
+}
+#login_form{
+	width: 500px;
+	margin: 0 auto;
+}
+.control-label{
+	color: #fff;
+	font-family: 'Microsoft Yahei';
+}
+#login_form{
+	padding-top: 20px;
+}
+input[type=email].form-control, input[type=text].form-control, input[type=password].form-control{
+	border-radius: 20px;
+}
+.form-horizontal .radio-inline{
+	margin-left: 0px;
+	padding-left: 5px;
+}
+#login_form label{
+	color: #fff;
+	font-family: 'Microsoft Yahei';
+}
+.btn-login{
+	border-color: #809c51;
+	background-color: #b6d077;
+	color: #FFF;
+	padding: 30px 24px;
+}
+.btn-login:hover{
+	background-color: #aec471;
+	border-color: #809c51;
+	color: #fff;
+}
+/* background: #ffffff; 
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f1f1f1 47%, #e9e9e9 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f1f1f1), color-stop(100%,#e9e9e9)); 
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f1f1f1 47%,#e9e9e9 100%); 
+	background: -o-linear-gradient(top,  #ffffff 0%,#f1f1f1 47%,#e9e9e9 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f1f1f1 47%,#e9e9e9 100%); 
+	background: linear-gradient(to bottom,  #ffffff 0%,#f1f1f1 47%,#e9e9e9 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e9e9e9',GradientType=0 ); 
+	
+	-webkit-box-shadow: 1px 1px 2px 1px #7a934f;
+	box-shadow: 1px 1px 2px 1px #7a934f;
+	border-radius: 50px; */
+#logo{
+	width: 640px;
+	height: 100px;
+	position: absolute;
+	
+	top: -150px;
+	left: 50%;
+	margin-left: -320px;
+	background: transport;
+}
+#logo h2{
+	position: relative;
+	top:11px;
+	color:#5d8225;
+	text-align: center;
+	font-size: 45px;
+}

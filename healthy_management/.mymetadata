@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="healthy_management"
+  id="myeclipse.1429580318103"
+  context-root="/healthy_management"
+  j2ee-spec="5.0"
+  archive="healthy_management.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

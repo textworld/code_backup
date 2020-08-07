@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>GetData</description>
+    <display-name>GetData</display-name>
+    <servlet-name>Rxy</servlet-name>
+    <servlet-class>rxy.servlet.Rxy</servlet-class>
+  </servlet>
+  <servlet>
+    <description>the servlet to handler the login</description>
+    <display-name>LoginServlet</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>rxy.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>the servlet to handler the login</description>
+    <display-name>LoginServlet</display-name>
+    <servlet-name>FindDiag</servlet-name>
+    <servlet-class>rxy.servlet.FindDiag</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>the servlet to receive the data</description>
+  	<display-name>GetDataServlet</display-name>
+  	<servlet-name>GetDataServlet</servlet-name>
+  	<servlet-class>rxy.api.BtempServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddAnnServlet</servlet-name>
+    <servlet-class>rxy.servlet.AddAnnServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindAnn</servlet-name>
+    <servlet-class>rxy.servlet.FindAnn</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>the servlet to produce json data</description>
+  	<display-name>jsonapi</display-name>
+  	<servlet-name>ajaxServlet</servlet-name>
+  	<servlet-class>rxy.api.GetDataServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>the servlet to handler the login</description>
+    <display-name>LoginServlet</display-name>
+    <servlet-name>GetDataOneWeek</servlet-name>
+    <servlet-class>rxy.api.GetDataOneWeek</servlet-class>
+  </servlet>
+  <servlet>
+    <description>the servlet to handler the login</description>
+    <display-name>WriteDiagnosis</display-name>
+    <servlet-name>WriteDiagnosis</servlet-name>
+    <servlet-class>rxy.servlet.WriteDiagnosis</servlet-class>
+  </servlet>
+  <servlet>
+    <description>the servlet to handler the login</description>
+    <display-name>WriteDiagnosis</display-name>
+    <servlet-name>InputBodyData</servlet-name>
+    <servlet-class>rxy.servlet.InputBodyData</servlet-class>
+  </servlet>
+  <servlet>
+    <description>the servlet to handler the login</description>
+    <display-name>WriteDiagnosis</display-name>
+    <servlet-name>AnnEditServlet</servlet-name>
+    <servlet-class>rxy.servlet.AnnEditServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>the servlet to handler the login</description>
+    <display-name>WriteDiagnosis</display-name>
+    <servlet-name>AnnRemoveServlet</servlet-name>
+    <servlet-class>rxy.servlet.AnnRemoveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>the servlet to handler the login</description>
+    <display-name>WriteDiagnosis</display-name>
+    <servlet-name>ConsultServlet</servlet-name>
+    <servlet-class>rxy.servlet.ConsultServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>the servlet to handler the login</description>
+    <display-name>WriteDiagnosis</display-name>
+    <servlet-name>AnswerServlet</servlet-name>
+    <servlet-class>rxy.servlet.AnswerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>the servlet to handler the login</description>
+    <display-name>WriteDiagnosis</display-name>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>rxy.servlet.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>the servlet to handler the login</description>
+    <display-name>WriteDiagnosis</display-name>
+    <servlet-name>GetDataHoursAgo</servlet-name>
+    <servlet-class>rxy.api.GetDataHoursAgo</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>img upload</description>
+  	<display-name>ImgUpload</display-name>
+  	<servlet-name>ImgUpload</servlet-name>
+  	<servlet-class>rxy.servlet.ImgUploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>the servlet to handler the login</description>
+    <display-name>WriteDiagnosis</display-name>
+    <servlet-name>RemoteCheckServlet</servlet-name>
+    <servlet-class>rxy.servlet.RemoteCheckServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Rxy</servlet-name>
+    <url-pattern>/servlet/Rxy</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindDiag</servlet-name>
+    <url-pattern>/FindDiag</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>GetDataServlet</servlet-name>
+  	<url-pattern>/api/btemp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddAnnServlet</servlet-name>
+    <url-pattern>/AddAnnServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindAnn</servlet-name>
+    <url-pattern>/FindAnn</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ajaxServlet</servlet-name>
+  	<url-pattern>/api/ajax</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetDataOneWeek</servlet-name>
+    <url-pattern>/api/GetDataOneWeek</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WriteDiagnosis</servlet-name>
+    <url-pattern>/WriteDiagnosis</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InputBodyData</servlet-name>
+    <url-pattern>/InputBodyData</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AnnEditServlet</servlet-name>
+    <url-pattern>/AnnEdit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AnnRemoveServlet</servlet-name>
+    <url-pattern>/AnnRemoveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ConsultServlet</servlet-name>
+    <url-pattern>/ConsultServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AnswerServlet</servlet-name>
+    <url-pattern>/AnswerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetDataHoursAgo</servlet-name>
+    <url-pattern>/api/GetDataHoursAgo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ImgUpload</servlet-name>
+  	<url-pattern>/ImgUpload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoteCheckServlet</servlet-name>
+    <url-pattern>/RemoteCheckServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
